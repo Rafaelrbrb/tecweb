@@ -1,24 +1,61 @@
 
       aside {
-        width: 200px;
+        width: 400px;
         margin: 0;
-        margin-left: 30px
+        margin-left: 30px;
+        background-color: lightgray;
+        height: 100vh;
       }
-
 
       main {
         flex: 1;
         padding : 20px;
         margin-left: 30px;
-        margin-top : -25px
+        margin-top : -25px;
+        font-family: Arial;
       }
-      body{
+        body{
         display: flex;
-        margin: 0
+        margin: 0;
+        padding: 0;
+        background-color: white;
       }
       header{
         display:flex;
         align-items:center;
-        justify-content: space-between
+        justify-content: space-between;
+        font-family: Arial;
       }
 
+      aside img{
+        background-color: red;
+        margin-right: 220px;
+      }
+
+      aside ul{
+        display: flex;
+        flex-direction: column;
+        gap: 30px
+      }
+
+      .titulo-container{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px
+      }
+
+      .titulo-container h1{
+        flex: 1;
+        background-color: aqua;
+        height: auto;
+      }
+
+      .titulo-container img{
+        flex: 1;
+        height: auto;
+      }
+
+      body aside nav ul{
+        font-size: larger;
+      }
